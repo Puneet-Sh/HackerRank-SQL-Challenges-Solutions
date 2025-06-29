@@ -12,4 +12,4 @@ GROUP  BY H.hacker_id,
           H.name 
 HAVING Count(S.hacker_id) > 1 
 ORDER  BY Count(S.hacker_id) DESC, 
-          S.hacker_id ASC; 
+          H.hacker_id ASC; 
